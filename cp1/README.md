@@ -39,12 +39,12 @@ Você deve desenvolver um programa em C# que simule um sistema de controle de pr
 -	Método para exibir os detalhes do produto.
 
 ## 🔍 Critérios de Avaliação
-•	✅ Uso correto de variáveis e entrada/saída de dados (2 pontos)
-•	✅ Implementação da classe Produto com atributos e métodos (2 pontos)
-•	✅ Uso correto de construtores para inicializar os objetos (2 pontos)
-•	✅ Implementação do cálculo do custo total e do custo final (2 pontos)
-•	✅ Uso correto de estrutura condicional para aplicar descontos (1 ponto)
-•	✅ Exibição correta da saída, incluindo a comparação dos produtos (1 ponto)
+- ✅ Uso correto de variáveis e entrada/saída de dados (2 pontos)
+- ✅ Implementação da classe Produto com atributos e métodos (2 pontos)
+- ✅ Uso correto de construtores para inicializar os objetos (2 pontos)
+- ✅ Implementação do cálculo do custo total e do custo final (2 pontos)
+- ✅ Uso correto de estrutura condicional para aplicar descontos (1 ponto)
+- ✅ Exibição correta da saída, incluindo a comparação dos produtos (1 ponto)
 
 ## 📌 Observação: 
 ###  🔹- O checkpoint deverá ser desenvolvido individualmente.
