@@ -10,6 +10,6 @@ Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced
 **Paulo André Carminati RM557881**  
 
 
-**Repositório no GitHub:** [CP1 - Bank](https://github.com/carmipa/CP2025_primeiro_semestre/tree/main/Java_Advanced/cp1)
+**Repositório no GitHub**: [CP1](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp1)
 
 ---
