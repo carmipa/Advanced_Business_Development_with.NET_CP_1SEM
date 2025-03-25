@@ -47,10 +47,10 @@ Você deve desenvolver um programa em C# que simule um sistema de controle de pr
 - ✅ Exibição correta da saída, incluindo a comparação dos produtos (1 ponto)
 
 ## 📌 Observação: 
-###  🔹- O checkpoint deverá ser desenvolvido individualmente.
-### ⚠️ - Código que não compilar receberá nota 0.
-### ❌ - Se tivermos projetos iguais as notas que copiaram será 0 (zero).
-### 🤖 Se for usar IA, use da maneira certa. Não copie e cole o que ela mandar.
+- 🔹- O checkpoint deverá ser desenvolvido individualmente.
+- ⚠️ - Código que não compilar receberá nota 0.
+- ❌ - Se tivermos projetos iguais as notas que copiaram será 0 (zero).
+- 🤖 Se for usar IA, use da maneira certa. Não copie e cole o que ela mandar.
 
 ## 🛠️ Dica*: Estruture bem o código, lembre de documentar bem os métodos, use nomes de variáveis intuitivos e teste seu programa antes de finalizar a entrega.
 
