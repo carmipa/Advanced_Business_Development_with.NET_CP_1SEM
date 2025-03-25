@@ -2,15 +2,21 @@
 
 public class Produtos
 {
+    /// <summary>
+    /// criação de construtor padrão vázio
+    /// </summary>
     public Produtos()
     {
     }
 
+    /// <summary>
+    /// criação de métods de entrada e saída de dados
+    /// </summary>
     public int Codigo { get; set; }
-    public string nomeProduto { get; set; }
-    public int quantidade { get; set; }
-    public double valorUnitario { get; set; }
-    public double desconto { get; set; }
+    public string NomeProduto { get; set; }
+    public int Quantidade { get; set; }
+    public double ValorUnitario { get; set; }
+    public double Desconto { get; set; }
     public double valorTotal { get; set; }
 
     /// <summary>
@@ -19,24 +25,20 @@ public class Produtos
     /// <returns></returns>
     public double ValorSemDesconto()
     {
-        double totalSemDesconto = quantidade * valorUnitario;
-        return totalSemDesconto;
+        return Quantidade * ValorUnitario;
+        
     }
 
     /// <summary>
     /// Calcula o valor total do produto com desconto
     /// </summary>
     /// <returns></returns>
-    public double valorComDesconto()
+    public double ValorComDesconto()
     {
-       
-        double totalComDesconto = (quantidade * valorUnitario) - ((quantidade * valorUnitario) * (desconto / 100));
-
-        return totalComDesconto;
+        double total = ValorSemDesconto();
+        if (total > 5000)
+            total -= total * (Desconto / 100);
+        return total;
     }
-
-
-
-
 
 }
