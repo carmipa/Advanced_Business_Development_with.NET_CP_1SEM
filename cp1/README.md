@@ -11,9 +11,6 @@ Bem-vindo à sua CP1 de C#! O objetivo desta avaliação é testar seus conhecim
 ## 🎯 Objetivo
 Você deve desenvolver um programa em C# que simule um sistema de controle de produtos. O programa deve permitir cadastrar dois produtos, calcular o valor total de cada um com base na quantidade e no preço unitário, aplicar um desconto se o valor total for maior que R$ 5000, e indicar qual produto tem o maior custo final.
 
-
-**Pontuação Máxima:** 100%
-
 ---
 
 ## 📜 Regras do programa
@@ -40,3 +37,21 @@ Você deve desenvolver um programa em C# que simule um sistema de controle de pr
 -	Método público para calcular o custo total.
 -	Método público para calcular o custo final com desconto.
 -	Método para exibir os detalhes do produto.
+
+## 🔍 Critérios de Avaliação
+•	✅ Uso correto de variáveis e entrada/saída de dados (2 pontos)
+•	✅ Implementação da classe Produto com atributos e métodos (2 pontos)
+•	✅ Uso correto de construtores para inicializar os objetos (2 pontos)
+•	✅ Implementação do cálculo do custo total e do custo final (2 pontos)
+•	✅ Uso correto de estrutura condicional para aplicar descontos (1 ponto)
+•	✅ Exibição correta da saída, incluindo a comparação dos produtos (1 ponto)
+
+## 📌 Observação: 
+###  🔹- O checkpoint deverá ser desenvolvido individualmente.
+### ⚠️ - Código que não compilar receberá nota 0.
+### ❌ - Se tivermos projetos iguais as notas que copiaram será 0 (zero).
+### 🤖 Se for usar IA, use da maneira certa. Não copie e cole o que ela mandar.
+
+## 🛠️ Dica*: Estruture bem o código, lembre de documentar bem os métodos, use nomes de variáveis intuitivos e teste seu programa antes de finalizar a entrega.
+
+## Boa CP1! 🚀
