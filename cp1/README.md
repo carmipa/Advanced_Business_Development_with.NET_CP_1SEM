@@ -1,4 +1,4 @@
-# 🚀 CP1 2025 - FIAP - Advanced Business Development with .NET
+# 🚀 CP1 2025 - FIAP - Advanced Business Development with .NET - Controle de produtos
 
 **Paulo André carminati RM557881**  
 
@@ -56,4 +56,4 @@ Você deve desenvolver um programa em C# que simule um sistema de controle de pr
 
 ## Boa CP1! 🚀
 
-**Repositório no GitHub**: [CP1](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp1)
+**Repositório no GitHub**: [CP1- Controle de produtos](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp1)
