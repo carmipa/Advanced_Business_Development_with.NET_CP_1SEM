@@ -1,4 +1,4 @@
-# 🚀 FIAP 2025 - Java Advanced
+# 🚀 FIAP 2025 - Advanced Business Development with .NET
 
 Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced Business Development with .NET** do primeiro semestre.
 
