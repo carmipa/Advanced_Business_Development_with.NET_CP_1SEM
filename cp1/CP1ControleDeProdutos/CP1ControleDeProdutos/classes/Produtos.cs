@@ -1,6 +1,6 @@
 ﻿namespace CP1ControleDeProdutos.classes;
 
-public class Produtos
+internal class Produtos
 {
     /// <summary>
     /// criação de construtor padrão vázio
