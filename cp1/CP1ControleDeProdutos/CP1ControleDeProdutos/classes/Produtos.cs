@@ -1,43 +1,59 @@
 ﻿namespace CP1ControleDeProdutos.classes;
 
-internal class Produtos
+ class Produtos
 {
+    // 
+
     /// <summary>
-    /// criação de construtor padrão vázio
+    /// criação dos atributos privados
     /// </summary>
-    public Produtos()
+    private int codigo;
+    private string nomeProduto;
+    private int quantidade;
+    private double valorUnitario;
+    private double desconto;
+    private double valorTotal;
+
+    /// <summary>
+    /// construtor cheio
+    /// </summary>
+    public Produtos(int codigo, string nomeProduto, int quantidade, double valorUnitario, double desconto)
     {
+        this.codigo = codigo;
+        this.nomeProduto = nomeProduto;
+        this.quantidade = quantidade;
+        this.valorUnitario = valorUnitario;
+        this.desconto = desconto;
+        this.valorTotal = 0.0;
     }
 
     /// <summary>
-    /// criação de métods de entrada e saída de dados
+    /// metodos get
     /// </summary>
-    public int Codigo { get; set; }
-    public string NomeProduto { get; set; }
-    public int Quantidade { get; set; }
-    public double ValorUnitario { get; set; }
-    public double Desconto { get; set; }
-    public double valorTotal { get; set; }
+    public int Codigo => codigo;
+    public string NomeProduto => nomeProduto;
+    public int Quantidade => quantidade;
+    public double ValorUnitario => valorUnitario;
+    public double Desconto => desconto;
+    public double ValorTotal => valorTotal;
 
     /// <summary>
-    /// Calcula o valor total do produto sem desconto
+    ///método de cálculo de desconto
     /// </summary>
-    /// <returns></returns>
     public double ValorSemDesconto()
     {
-        return Quantidade * ValorUnitario;
-        
+        valorTotal = quantidade * valorUnitario;
+        return valorTotal;
     }
 
     /// <summary>
-    /// Calcula o valor total do produto com desconto
+    /// metodo de calculo com valor final com desconto
     /// </summary>
-    /// <returns></returns>
     public double ValorComDesconto()
     {
         double total = ValorSemDesconto();
         if (total > 5000)
-            total -= total * (Desconto / 100);
+            total -= total * (desconto / 100);
         return total;
     }
 
