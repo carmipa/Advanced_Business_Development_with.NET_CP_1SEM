@@ -43,7 +43,7 @@ Implementar uma API que:
   "carroId": 1,
   "dataInicio": "2025-04-25",
   "dataFim":   "2025-04-30"
-}
+}```
 
 ---
 
@@ -57,7 +57,7 @@ if (dias >= 7)
     desconto = 0.10;          // 10 %
 else if (dias >= 3)
     desconto = 0.05;          // 5 %
-
+````
 ---
 
 ## 📍 Endpoints obrigatórios
@@ -81,7 +81,7 @@ else if (dias >= 3)
 ```bash
 dotnet ef migrations add InitialCreate
 dotnet ef database update
-
+```
 ---
 
 ## 🔍 Critérios de Avaliação
@@ -108,7 +108,7 @@ Content-Type: application/json
   "dataInicio": "2025-04-25",
   "dataFim":    "2025-04-30"
 }
-
+```
 ---
 
 ## 📥 Exemplo de Saída
@@ -124,7 +124,7 @@ Content-Type: application/json
   "desconto":    "10%",
   "valorFinal":  810.00
 }
-
+```
 ---
 
 ## ⚠️ Observações Importantes
