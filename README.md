@@ -6,7 +6,7 @@ Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced
 
 ## 🎯 CP1 2025
 
-**💻 CP1 - instruções básicas da linguagem, entrada e saída de dados, estrutura condicional e orientação a objetos.**
+**💻 CP1 - Controle de produtos**
 
 **Integrantes do Grupo:**  
 **Paulo André Carminati RM557881**  
