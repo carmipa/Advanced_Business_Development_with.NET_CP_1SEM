@@ -13,3 +13,11 @@ Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced
 **Repositório no GitHub**: [CP1 - Controle de produtos](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp1)
 
 ---
+
+## 🎯 CP2 2025
+
+**Integrantes do Grupo:**  
+**Paulo André Carminati RM557881**  
+
+
+**Repositório no GitHub**: [CP1 - Controle de produtos](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp1)
