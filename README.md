@@ -20,4 +20,4 @@ Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced
 **Paulo André Carminati RM557881**  
 
 
-**Repositório no GitHub**: [CP1 - Controle de produtos](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp1)
+**Repositório no GitHub**: [CP1 - Locadora de Carros com API REST em ASP.NET Core](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp2)
