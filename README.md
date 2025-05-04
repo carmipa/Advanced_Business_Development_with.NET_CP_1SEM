@@ -10,7 +10,7 @@ Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced
 
 **Integrantes do Grupo:**  
 **Paulo André Carminati RM557881**  
-
+**Turma: 2-TDSPZ**
 
 **Repositório no GitHub**: [CP1 - Controle de produtos](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp1)
 
@@ -22,6 +22,6 @@ Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced
 
 **Integrantes do Grupo:**  
 **Paulo André Carminati RM557881**  
+**Turma: 2-TDSPZ**
 
-
-**Repositório no GitHub**: [CP1 - Locadora de Carros com API REST em ASP.NET Core](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp2)
+**Repositório no GitHub**: [CP2 - Locadora de Carros com API REST em ASP.NET Core](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp2)
