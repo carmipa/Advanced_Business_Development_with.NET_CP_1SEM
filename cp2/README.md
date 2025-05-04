@@ -149,4 +149,5 @@ Content-Type: application/json
 
 ---
 
-**Repositório no GitHub**: [CP1- Controle de produtos](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp1)
+**Repositório no GitHub**: [![Documentação – PDF](https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp2)
+
