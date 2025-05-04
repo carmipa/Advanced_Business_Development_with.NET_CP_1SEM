@@ -151,5 +151,5 @@ Content-Type: application/json
 **link para a documentação***: [![Documentação – DOCX](https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-DOCX-blue?style=for-the-badge&logo=microsoftword&logoColor=white)](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/blob/main/cp2/README.md)
 
 
-**Repositório no GitHub**: [CP1 - Locadora de Carros com API REST em ASP.NET Core](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp2)
+**Repositório no GitHub**: [CP2 - Locadora de Carros com API REST em ASP.NET Core](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp2)
 
