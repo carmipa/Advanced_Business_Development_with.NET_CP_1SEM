@@ -148,6 +148,8 @@ Content-Type: application/json
 **Boa CP2! 🚀** Capriche no código e mostre seu domínio em APIs, EF Core e lógica orientada a objetos.
 
 ---
+**link para a documentação***: [![Documentação – DOCX](https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-DOCX-blue?style=for-the-badge&logo=microsoftword&logoColor=white)](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/blob/main/cp2/README.md)
+
 
 **Repositório no GitHub**: [![Documentação – PDF](https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-PDF-red?logo=adobeacrobatreader&logoColor=white)](https://github.com/carmipa/Advanced_Business_Development_with.NET_CP_1SEM/tree/main/cp2)
 
