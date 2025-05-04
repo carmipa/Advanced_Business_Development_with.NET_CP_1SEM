@@ -43,8 +43,8 @@ Implementar uma API que:
   "carroId": 1,
   "dataInicio": "2025-04-25",
   "dataFim":   "2025-04-30"
-}```
-
+}
+```
 ---
 
 ## Regras de calculo (C#)
@@ -57,7 +57,7 @@ if (dias >= 7)
     desconto = 0.10;          // 10 %
 else if (dias >= 3)
     desconto = 0.05;          // 5 %
-````
+
 ---
 
 ## 📍 Endpoints obrigatórios
