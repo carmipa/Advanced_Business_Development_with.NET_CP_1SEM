@@ -6,6 +6,8 @@ Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced
 
 ## 🎯 CP1 2025
 
+**💻 CP1 - instruções básicas da linguagem, entrada e saída de dados, estrutura condicional e orientação a objetos.**
+
 **Integrantes do Grupo:**  
 **Paulo André Carminati RM557881**  
 
@@ -15,6 +17,8 @@ Este repositório centraliza os trabalhos desenvolvidos na disciplina **Advanced
 ---
 
 ## 🎯 CP2 2025
+
+**🚗 CP2 - Locadora de Carros com API REST em ASP.NET Core**
 
 **Integrantes do Grupo:**  
 **Paulo André Carminati RM557881**  
