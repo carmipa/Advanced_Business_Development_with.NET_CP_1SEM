@@ -2,6 +2,7 @@
 using LocadoraDeCarrosAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Oracle.EntityFrameworkCore.Metadata;
 
@@ -10,13 +11,15 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace LocadoraDeCarrosAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250504221948_AjusteTabelaCarros")]
+    partial class AjusteTabelaCarros
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.4")
+                .HasAnnotation("ProductVersion", "9.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             OracleModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -40,13 +43,12 @@ namespace LocadoraDeCarrosAPI.Migrations
                         .IsRequired()
                         .HasColumnType("NVARCHAR2(2000)");
 
-                    b.Property<decimal>("ValorDiaria")
-                        .HasPrecision(10, 2)
-                        .HasColumnType("DECIMAL(10,2)");
+                    b.Property<double>("ValorDiaria")
+                        .HasColumnType("BINARY_DOUBLE");
 
                     b.HasKey("Id");
 
-                    b.ToTable("CARROS_CP2", (string)null);
+                    b.ToTable("Carros_CP2", (string)null);
                 });
 #pragma warning restore 612, 618
         }

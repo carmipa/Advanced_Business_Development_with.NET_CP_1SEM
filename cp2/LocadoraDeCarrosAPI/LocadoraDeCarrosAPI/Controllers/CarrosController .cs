@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 /// <summary>
 /// Controlador para gerenciar operações relacionadas a carros.
 /// </summary>
-[Table("Carros_CP2")]
 [ApiController]
 [Route("api/carros")]
 public class CarrosController : ControllerBase
@@ -71,7 +70,7 @@ public class CarrosController : ControllerBase
     {
         _context.Carros.Add(carro);
         await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetCarros), new { id = carro.Id }, carro);
+        return CreatedAtAction(nameof(GetCarro), new { id = carro.Id }, carro);
     }
 
     /// <summary>
