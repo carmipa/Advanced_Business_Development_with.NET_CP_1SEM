@@ -23,7 +23,9 @@ namespace LocadoraDeCarrosAPI.Models
         /// Data de fim da locação.
         /// </summary>
         [Required(ErrorMessage = "A data de fim é obrigatória.")]
-        [Compare(nameof(DataInicio), ErrorMessage = "A data de fim deve ser posterior à de início.")]
+        // [Compare(nameof(DataInicio), ErrorMessage = "A data de fim deve ser posterior à de início.")]
+        // ^-- COMENTADO: O atributo [Compare] padrão não valida "maior que" corretamente neste contexto
+        //     e estava causando erro 400. A validação DataFim > DataInicio é feita manualmente no Controller.
         public DateTime DataFim { get; set; }
 
     }

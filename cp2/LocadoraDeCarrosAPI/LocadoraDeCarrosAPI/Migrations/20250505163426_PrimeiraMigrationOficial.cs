@@ -5,13 +5,13 @@
 namespace LocadoraDeCarrosAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class PrimeiraMigrationOficial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Carros",
+                name: "CARROS_CP2",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
@@ -19,11 +19,11 @@ namespace LocadoraDeCarrosAPI.Migrations
                     Modelo = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
                     Marca = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
                     Ano = table.Column<int>(type: "NUMBER(10)", nullable: false),
-                    ValorDiaria = table.Column<double>(type: "BINARY_DOUBLE", nullable: false)
+                    ValorDiaria = table.Column<decimal>(type: "DECIMAL(10,2)", precision: 10, scale: 2, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Carros", x => x.Id);
+                    table.PrimaryKey("PK_CARROS_CP2", x => x.Id);
                 });
         }
 
@@ -31,7 +31,7 @@ namespace LocadoraDeCarrosAPI.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Carros");
+                name: "CARROS_CP2");
         }
     }
 }

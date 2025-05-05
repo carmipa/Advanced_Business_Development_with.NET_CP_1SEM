@@ -11,15 +11,15 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace LocadoraDeCarrosAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250504232333_AjusteValorDiaria")]
-    partial class AjusteValorDiaria
+    [Migration("20250505163426_PrimeiraMigrationOficial")]
+    partial class PrimeiraMigrationOficial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.4")
+                .HasAnnotation("ProductVersion", "9.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             OracleModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -44,11 +44,12 @@ namespace LocadoraDeCarrosAPI.Migrations
                         .HasColumnType("NVARCHAR2(2000)");
 
                     b.Property<decimal>("ValorDiaria")
-                        .HasColumnType("NUMBER(10,2)");
+                        .HasPrecision(10, 2)
+                        .HasColumnType("DECIMAL(10,2)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Carros_CP2", (string)null);
+                    b.ToTable("CARROS_CP2", (string)null);
                 });
 #pragma warning restore 612, 618
         }

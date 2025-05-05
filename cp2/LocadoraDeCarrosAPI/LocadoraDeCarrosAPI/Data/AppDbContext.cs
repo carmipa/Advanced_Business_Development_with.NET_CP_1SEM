@@ -9,6 +9,9 @@ namespace LocadoraDeCarrosAPI.Data
 
         
         public DbSet<Carro> Carros { get; set; } // Pode ser renomeado para Carros_CP2
+        
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
